@@ -1,0 +1,68 @@
+{
+  "efficientnet_b0": {
+    "early": {
+      "layer": "blocks.0",
+      "probe_acc": 44.8051948051948,
+      "mean_feat_norm": 4.969898700714111
+    },
+    "middle": {
+      "layer": "blocks.2",
+      "probe_acc": 73.73737373737373,
+      "mean_feat_norm": 17.37626838684082
+    },
+    "deep": {
+      "layer": "blocks.4",
+      "probe_acc": 88.31168831168831,
+      "mean_feat_norm": 20.37200927734375
+    },
+    "final": {
+      "layer": "blocks.6",
+      "probe_acc": 94.87734487734488,
+      "mean_feat_norm": 28.747936248779297
+    }
+  },
+  "densenet121": {
+    "early": {
+      "layer": "features.denseblock1",
+      "probe_acc": 77.27272727272727,
+      "mean_feat_norm": 109.81297302246094
+    },
+    "middle": {
+      "layer": "features.denseblock2",
+      "probe_acc": 87.66233766233766,
+      "mean_feat_norm": 31.949501037597656
+    },
+    "deep": {
+      "layer": "features.denseblock3",
+      "probe_acc": 94.22799422799423,
+      "mean_feat_norm": 29.667030334472656
+    },
+    "final": {
+      "layer": "features.denseblock4",
+      "probe_acc": 95.23809523809523,
+      "mean_feat_norm": 30.88690757751465
+    }
+  },
+  "resnet50": {
+    "early": {
+      "layer": "layer1",
+      "probe_acc": 78.64357864357865,
+      "mean_feat_norm": 18.803972244262695
+    },
+    "middle": {
+      "layer": "layer2",
+      "probe_acc": 88.60028860028861,
+      "mean_feat_norm": 49.76249694824219
+    },
+    "deep": {
+      "layer": "layer3",
+      "probe_acc": 93.65079365079364,
+      "mean_feat_norm": 45.97895050048828
+    },
+    "final": {
+      "layer": "layer4",
+      "probe_acc": 95.3102453102453,
+      "mean_feat_norm": 20.639829635620117
+    }
+  }
+}

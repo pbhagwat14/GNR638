@@ -1,0 +1,86 @@
+{
+  "efficientnet_b0": {
+    "clean_acc": 96.17604617604617,
+    "gaussian_s0.05": {
+      "acc": 32.106782123984026,
+      "corruption_error": 0.6789321787601598,
+      "relative_robustness": 0.3338334585434498
+    },
+    "gaussian_s0.1": {
+      "acc": 5.266955266955267,
+      "corruption_error": 0.9473304473304474,
+      "relative_robustness": 0.05476369092273069
+    },
+    "gaussian_s0.2": {
+      "acc": 3.6075036075036073,
+      "corruption_error": 0.963924963924964,
+      "relative_robustness": 0.037509377344336084
+    },
+    "motion_blur": {
+      "acc": 39.82683982683983,
+      "corruption_error": 0.6017316017316017,
+      "relative_robustness": 0.4141035258814704
+    },
+    "brightness_shift": {
+      "acc": 95.23809523809524,
+      "corruption_error": 0.04761904761904756,
+      "relative_robustness": 0.9902475618904727
+    }
+  },
+  "densenet121": {
+    "clean_acc": 96.3924963924964,
+    "gaussian_s0.05": {
+      "acc": 51.15440118020403,
+      "corruption_error": 0.48845598819795966,
+      "relative_robustness": 0.5306886230221766
+    },
+    "gaussian_s0.1": {
+      "acc": 3.751803751803752,
+      "corruption_error": 0.9624819624819625,
+      "relative_robustness": 0.038922155688622756
+    },
+    "gaussian_s0.2": {
+      "acc": 2.5974025974025974,
+      "corruption_error": 0.974025974025974,
+      "relative_robustness": 0.026946107784431135
+    },
+    "motion_blur": {
+      "acc": 37.01298701298701,
+      "corruption_error": 0.6298701298701299,
+      "relative_robustness": 0.3839820359281437
+    },
+    "brightness_shift": {
+      "acc": 95.81529581529581,
+      "corruption_error": 0.04184704184704191,
+      "relative_robustness": 0.9940119760479041
+    }
+  },
+  "resnet50": {
+    "clean_acc": 95.74314574314575,
+    "gaussian_s0.05": {
+      "acc": 56.204906213507165,
+      "corruption_error": 0.43795093786492834,
+      "relative_robustness": 0.5870384326444682
+    },
+    "gaussian_s0.1": {
+      "acc": 3.2467532467532467,
+      "corruption_error": 0.9675324675324676,
+      "relative_robustness": 0.03391107761868877
+    },
+    "gaussian_s0.2": {
+      "acc": 3.318903318903319,
+      "corruption_error": 0.9668109668109668,
+      "relative_robustness": 0.0346646571213263
+    },
+    "motion_blur": {
+      "acc": 57.21500721500721,
+      "corruption_error": 0.4278499278499279,
+      "relative_robustness": 0.5975885455915598
+    },
+    "brightness_shift": {
+      "acc": 95.16594516594516,
+      "corruption_error": 0.04834054834054835,
+      "relative_robustness": 0.9939713639788997
+    }
+  }
+}

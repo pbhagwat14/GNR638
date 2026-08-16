@@ -51,5 +51,5 @@ python python/eval.py --data_dir python/data_2 --model_path python/model_d2.txt
 Files
 cpp/: C++ source code 
 python/: Python scripts.
-GNR638assignment.pdf:  project report and analysis.
+GNR638Project.pdf:  project report and analysis.
 

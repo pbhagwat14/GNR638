@@ -1,0 +1,12 @@
+# Ignore build artifacts
+build/
+*.so
+*.pyd
+*.dylib
+*.dll
+*.exe
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
